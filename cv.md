@@ -2,8 +2,8 @@
 
 ## Contacts
 
-- [GitHub](github.com/sleepyComrade)
-- [Telegram](t.me/leohgkg)
+- [GitHub](https://github.com/sleepyComrade)
+- [Telegram](https://t.me/leohgkg)
 - [E-mail](mailto:ivanovichivanivanov@protonmail.ch)
 
 ## About me
