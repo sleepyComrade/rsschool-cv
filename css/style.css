@@ -86,13 +86,10 @@ h1 {
 }
 
 .introduction {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-top: 13%;
-  margin-right: 5%;
-  margin-bottom: 5%;
   height: 300px;
   width: 50%;
+  margin: 13% 5% 5% 0;
 }
