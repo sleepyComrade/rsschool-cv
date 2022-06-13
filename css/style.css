@@ -82,13 +82,15 @@ img {
 /* Main */
 
 h1 {
-  font-size: 24px;
-  font-weight: 400;
+  position: relative;
+  font-size: 24px !important;
+  font-weight: 600;
 }
 
 h2 {
-  font-size: 26px;
-  font-weight: 400;
+  position: absolute;
+  font-size: 22px;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -101,7 +103,12 @@ h2 {
   margin: 13% 5% 5% 0;
 }
 
+.info-blocks {
+  margin-top: 100px;
+}
+
 .info-block {
+  position: relative;
   width: 47%;
   min-width: 350px;
   height: 350px;
@@ -115,8 +122,17 @@ h2 {
   float: right;
 }
 
+.info-block:nth-child(2n+1) h2 {
+  right: 0;
+  top: -18%;
+}
+
 .info-block:nth-child(2n) {
   float: left;
+}
+
+.info-block:nth-child(2n) h2 {
+  top: -18%;
 }
 
 .info-block:nth-child(2) {
