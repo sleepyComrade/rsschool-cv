@@ -109,7 +109,7 @@ h2 {
   justify-content: flex-end;
   height: 300px;
   width: 50%;
-  margin: 18% 5% 4% 0;
+  margin: 18% 5% 2% 0;
   font-size: 20px;
 }
 
@@ -138,7 +138,11 @@ h2 {
 }
 
 .info-blocks {
-  margin-top: 50px;
+  overflow: hidden;
+}
+
+.skills-block-out {
+  margin-top: 45px;
 }
 
 .info-block {
