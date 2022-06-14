@@ -203,10 +203,6 @@ h2 {
   background-size: cover;
 }
 
-.info-block {
-  opacity: 0.8;
-}
-
 /* Skills section */
 
 .info-block:nth-child(1) {
