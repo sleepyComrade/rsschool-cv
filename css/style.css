@@ -178,12 +178,12 @@ h2 {
 }
 
 .info-block:nth-child(1) {
-  background: url(/img/Backgrounds/texture-1.jpg);
+  background: url(/img/Backgrounds/texture-2.jpg);
   background-size: cover;
 }
 
 .info-block:nth-child(2) {
-  background: url(/img/Backgrounds/texture-2.jpg);
+  background: url(/img/Backgrounds/texture-1.jpg);
   background-size: cover;
 }
 
