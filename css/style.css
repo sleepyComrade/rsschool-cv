@@ -119,7 +119,7 @@ h2 {
 }
 
 .about-me {
-  margin:20px 0;
+  margin: 20px 0;
   line-height: 1.4;
 }
 
@@ -238,7 +238,7 @@ h2 {
 }
 
 .html-logo {
-  width:45%;
+  width: 45%;
 }
 
 .css-logo {
@@ -316,4 +316,57 @@ h2 {
 
 pre {
   font-size: 18px !important;
+}
+
+/* Contacts section */
+
+.contacts-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contacts-block ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0%;
+  list-style: none;
+}
+
+.contacts-block ul li {
+  position: relative;
+  height: 33%;
+}
+
+.contacts-block ul li img {
+  height: 60px;
+  margin: 3px 0 3px 6px;
+}
+
+.contacts-block ul li:nth-child(2) img {
+  margin-bottom: 0;
+}
+
+.contacts-block ul li:last-child img {
+  height: 73px;
+  margin: 0;
+}
+
+.contact-link {
+  position: absolute;
+  top: 23px;
+  margin-left: 15px;
+  font-size: 22px;
+  font-weight: 500;
+  color: rgb(123, 30, 142);
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: black;
+}
+
+.contact-link:active {
+  color: rgb(123, 30, 142);
 }
