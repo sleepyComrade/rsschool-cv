@@ -100,7 +100,6 @@ h2 {
   position: absolute;
   font-size: 24px;
   font-weight: 600;
-  text-align: center;
 }
 
 .introduction {
@@ -354,6 +353,10 @@ h2 {
   align-items: center;
 }
 
+.projects-block h2 {
+  left: 0;
+}
+
 .local-club-project-out {
   position: relative;
   display: flex;
@@ -371,7 +374,7 @@ h2 {
   background-size: cover;
   border: 1px solid rgb(81, 81, 81);
   border-radius: 10px;
-  opacity: 0.7;
+  opacity: 0.8;
   transition: all 0.4s ease;
 }
 
@@ -380,6 +383,15 @@ h2 {
   height: 100%;
   border: none;
   opacity: 1;
+}
+
+.cv-project-title {
+  position: absolute;
+  z-index: 3;
+  top: 0%;
+  left: 50%;
+  margin-left: -17px;
+  font-weight: 600;
 }
 
 .cv-project-out {
@@ -400,7 +412,7 @@ h2 {
   background-size: cover;
   border: 1px solid rgb(81, 81, 81);
   border-radius: 10px;
-  opacity: 0.7;
+  opacity: 0.8;
   transition: all 0.4s ease;
 }
 
@@ -409,19 +421,6 @@ h2 {
   height: 100%;
   border: none;
   opacity: 1;
-}
-
-.cv-project:hover .cv-project-title {
-  opacity: 0;
-}
-
-.cv-project-title {
-  position: absolute;
-  z-index: 3;
-  top: 0%;
-  left: 50%;
-  margin-left: -17px;
-  font-weight: 600;
 }
 
 .local-club-title {
