@@ -178,32 +178,32 @@ h2 {
 }
 
 .info-block:nth-child(1) {
-  background: url("/img/Backgrounds/texture-2.jpg");
+  background: url("../img/Backgrounds/texture-2.jpg");
   background-size: cover;
 }
 
 .info-block:nth-child(2) {
-  background: url("/img/Backgrounds/texture-1.jpg");
+  background: url("../img/Backgrounds/texture-1.jpg");
   background-size: cover;
 }
 
 .info-block:nth-child(3) {
-  background: url("/img/Backgrounds/texture-3.jpg");
+  background: url("../img/Backgrounds/texture-3.jpg");
   background-size: cover;
 }
 
 .info-block:nth-child(4) {
-  background: url("/img/Backgrounds/texture-4.jpg");
+  background: url("../img/Backgrounds/texture-4.jpg");
   background-size: cover;
 }
 
 .info-block:nth-child(5) {
-  background: url("/img/Backgrounds/texture-5.jpg");
+  background: url("../img/Backgrounds/texture-5.jpg");
   background-size: cover;
 }
 
 .info-block:nth-child(6) {
-  background: url("/img/Backgrounds/texture-6.jpg");
+  background: url("../img/Backgrounds/texture-6.jpg");
   background-size: cover;
 }
 
@@ -377,7 +377,7 @@ h2 {
   box-sizing: border-box;
   width: 100%;
   height: 75%;
-  background-image: url("/img/Backgrounds/Local-club.png");
+  background-image: url("../img/Backgrounds/Local-club.png");
   background-size: cover;
   border: 1px solid rgb(81, 81, 81);
   border-radius: 10px;
@@ -414,7 +414,7 @@ h2 {
   box-sizing: border-box;
   width: 100%;
   height: 75%;
-  background-image: url("/img/Backgrounds/CV.png");
+  background-image: url("../img/Backgrounds/CV.png");
   background-repeat: no-repeat;
   background-size: cover;
   border: 1px solid rgb(81, 81, 81);
