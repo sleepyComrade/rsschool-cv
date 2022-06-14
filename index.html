@@ -74,8 +74,23 @@
       <div class="info-block">
         <h2 id="projects">Projects</h2>
       </div>
-      <div class="info-block">
+      <div class="info-block code-example">
         <h2 id="code">Code Example</h2>
+        <div>
+          <pre>
+function vowelIndices(word) {
+  const vowels = 'aeiouyAEIOUY';
+  let myArr = word.split('');
+  let res = [];
+  myArr.forEach((el, index) => {
+    if (vowels.includes(el)) {
+      res.push(index + 1);
+    }
+  })
+  return res;
+}
+          </pre>
+        </div>
       </div>
       <div class="info-block">
         <h2 id="contacts">Contacts</h2>
