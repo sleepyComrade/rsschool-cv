@@ -16,6 +16,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
   padding: 0;
+  margin-top: 20px;
   color: rgb(150, 150, 150);
   list-style: none;
   animation-name: fade;
@@ -254,6 +255,12 @@ h2 {
 
 .git-logo {
   width: 75%;
+}
+
+@media (min-width: 1240px) {
+  .js-logo {
+    width: 45%;
+  }
 }
 
 /* Education section */
@@ -526,6 +533,123 @@ footer p {
   font-size: 18px;
 }
 
+.gith-logo {
+  width: 50px;
+}
+
+.rsschool-logo {
+  width: 125px;
+}
+
 footer img:hover {
   opacity: 0.7;
+}
+
+/* Media */
+
+@media (max-width: 950px) {
+  .cv-photo-wrapper {
+    float: none;
+    left: 50%;
+    margin-left: -150px;
+  }
+
+  .introduction {
+    margin-top: 8%;
+    width: 80%;
+  }
+
+  .info-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-block {
+    width: 65%;
+  }
+
+  .info-block:nth-child(2n+1) {
+    float: none;
+  }
+
+  .info-block:nth-child(2n) {
+    float: none;
+  }
+
+  .info-block:nth-child(2) {
+    margin-top: 0;
+  }
+
+  .skills-block {
+    margin: auto;
+    margin-bottom: 15%;
+  }
+}
+
+@media (max-width: 768px) {
+  .introduction {
+    margin-top: 16%;
+  }
+}
+
+@media (max-width: 658px) {
+  .introduction {
+    margin-top: 20%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 580px) {
+  .introduction {
+    margin-top: 25%;
+  }
+}
+
+@media (max-width: 510px) {
+  .introduction {
+    margin-top: 31%;
+  }
+}
+
+@media (max-width: 700px) {
+  pre {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .info-block {
+    margin-bottom: 25%;
+  }
+}
+
+@media (max-width: 500px) {
+  .info-block {
+    margin-bottom: 30%;
+  }
+}
+
+@media (max-width: 700px) {
+  footer p {
+    font-size: 16px;
+  }
+
+  .gith-logo {
+    width: 40px;
+  }
+
+  .rsschool-logo {
+    width: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    margin: 10px 20px;
+  }
 }
